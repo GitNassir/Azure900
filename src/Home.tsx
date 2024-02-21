@@ -102,7 +102,7 @@ interface CardData {
                     <h2 className='h2Header'>Grundlæggende om Cloud computing</h2>
                     <p>Cloudcomputing er kort sagt levering af computertjenester – herunder servere, lager, databaser, netværk, software, analyse og intelligens – via internettet ("skyen"), 
                         så du får hurtigere adgang til ny innovation, fleksible ressourcer og stordriftsfordele. Du betaler typisk kun for de cloudtjenester, 
-                        du bruger, og du kan dermed reducere dine driftsomkostninger, køre din infrastruktur mere effektivt og skalere i takt med udviklingen i din virksomhed.</p>
+                        du bruger, og du kan dermed reducere dine driftsomkostninger, køre din infrastruktur mere effektivt og skalere i takt med udviklingen i din virksomhed. </p>
                 </div>
             </div>
         </section>
