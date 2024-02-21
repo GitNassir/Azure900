@@ -1,0 +1,102 @@
+.cloudConcepts {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 1400px;
+    margin: auto;
+  }
+  
+  .cloudConcepts h2 {
+    color: black;
+  }
+  
+  .cloudConcepts section {
+    margin-bottom: 40px;
+  }
+  
+  .cloudConcepts img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  dl {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  dt {
+    font-weight: bold;
+  }
+  
+  dd {
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  
+  /* CloudConceptBenefits.css */
+.termDetail {
+  cursor: pointer;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.termDetail dt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.termDetail dd {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.termDetail.open {
+  background-color: #f9f9f9;
+}
+
+.toggleIndicator {
+  font-size: 0.8rem;
+}
+
+.termDetail img {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.contentText {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Tilføjer lidt mellemrum mellem tekst og billede */
+  margin: 20px 0;
+}
+
+.benefits .content, .benefits .image {
+  flex: 1; /* Sørger for, at både tekst- og billedsektionen fylder lige meget */
+  padding: 10px;
+}
+
+.benefits .image img {
+  width: 100%; /* Sørger for, at billedet fylder hele sin container */
+  height: auto; /* Bevarer billedets proportioner */
+}
+
+/* Responsivt design */
+@media (max-width: 768px) {
+  .benefits {
+    flex-direction: column; /* Stabler tekst og billede oven på hinanden på mindre skærme */
+  }
+}

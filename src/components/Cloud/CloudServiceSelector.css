@@ -1,0 +1,38 @@
+.cloud-service-selector {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    background-color: #fff; 
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ff6b35;
+    border-left: 1px solid #ff6b35;
+    border-right: 1px solid #ff6b35;
+    border-top: 1px solid #ff6b35;
+  }
+  
+  .question {
+    margin-bottom: 20px; 
+  }
+  
+  .question h3 {
+    margin-bottom: 10px;
+  }
+  
+  .options button {
+    margin-right: 10px; 
+    cursor: pointer; 
+  }
+  
+  .result {
+    padding: 20px;
+    background-color: #f9f9f9; 
+    border-radius: 8px;
+    margin-top: 20px; 
+  }
+  
+  .questionText {
+    font-size: medium;
+    font-weight: 500;
+  }

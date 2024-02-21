@@ -1,0 +1,78 @@
+.computeNetworkingContainer {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.content, .reverse {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.textContent {
+  max-width: 600px;
+}
+
+.sectionImage {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.servicesSection {
+  width: 100%;
+}
+
+.cardsContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.serviceCard {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #219EBC;
+  color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cardImage {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.cardContent h3 {
+  margin-bottom: 10px;
+}
+
+.moduleSummary {
+  font-style: italic;
+  margin-top: 40px;
+  text-align: center;
+  max-width: 80%;
+}

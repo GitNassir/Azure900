@@ -1,0 +1,84 @@
+:root {
+    --bg-white: #FFFFFF;
+    --color-shadow: rgba(0, 0, 0, 0.1);
+    --metric-gutter: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-white);
+    margin-right: 10px;
+    max-width: 600px;
+    border-radius: 10px;
+    border-bottom: 1px solid #EAE2B7;
+    border-left: 1px solid #EAE2B7;
+    border-right: 1px solid #EAE2B7;
+    box-shadow: 0 2px 4px var(--color-shadow);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px var(--color-shadow);
+  }
+  
+  .card__text {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .card__text p {
+    font-size: 1rem;
+    color: #666;
+    flex-grow: 1;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrerer kortene horisontalt */
+    align-items: stretch;
+}
+
+.responsibilityChart {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.responsibilityChart div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrerer indholdet vertikalt */
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background-color: #f0f0f0; /* Eksempel på baggrundsfarve */
+    flex: 1; /* Sørger for, at begge divs optager lige meget plads */
+  }
+  
+
+  .responsibilityChart .udbyder {
+    background-color: #EAE2B7;
+  }
+
+  .responsibilityChart .brugerAnsvar {
+    background-color: #FCBF49;
+  }
+
+  .cardBottom {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+  }
+
+  .cardTitle {
+    display: flex;
+    justify-content: center;
+    color: #333;
+  }

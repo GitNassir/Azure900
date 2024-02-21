@@ -1,0 +1,123 @@
+.cloudModels {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  
+  .cloudCard {
+    background-color: #F4F1DE;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+    margin: 10px;
+    padding: 20px;
+    width: calc(33% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .cloudCard h3 {
+    color: #3D405B;
+  }
+  
+  .cloudCard ul {
+    padding-left: 20px;
+  }
+  
+  .cloudCard p, .cloudCard ul {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .cloudCard {
+      width: calc(50% - 20px); /* Justerer kortenes bredde på */
+    }
+}
+
+@media (max-width: 480px) {
+    .cloudCard {
+      width: calc(100% - 20px); /* Gør kortene fulde bredde på meget små skærme */
+    }
+  }
+
+  .modelComparison {
+    font-family: Arial, sans-serif;
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .modelComparison h3 {
+    color: #3D405B;
+  }
+  
+  .modelComparison p {
+    margin-bottom: 20px;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  thead {
+    background-color: #F4F1DE;
+    color: #3D405B;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #fdfdfd;
+  }
+  
+  tbody tr:hover {
+    background-color: #eee;
+  }
+  
+  @media (max-width: 600px) {
+    th, td {
+      display: block;
+      width: 100%;
+    }
+  
+    thead {
+      display: none;
+    }
+  
+    tbody tr {
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ddd;
+    }
+  
+    td {
+      text-align: right;
+      position: relative;
+      padding-left: 50%;
+    }
+  
+    td::before {
+      content: attr(data-label);
+      position: absolute;
+      left: 0;
+      width: 50%;
+      padding-left: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+  }
+  

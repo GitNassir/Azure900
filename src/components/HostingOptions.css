@@ -1,0 +1,63 @@
+.hostingOptionsContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+  }
+  
+  .sectionContainer, .appServiceTypes {
+    width: 100%;
+    margin: 40px 0;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .textContent, .cardContent {
+    max-width: 800px;
+  }
+  
+  .sectionImage, .cardImage {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .appServiceTypes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .serviceCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #023047;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-left: 20px;
+  }
+  
+  .cardImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .summary {
+    font-style: italic;
+    margin-top: 40px;
+    text-align: center;
+    max-width: 80%;
+  }
+  

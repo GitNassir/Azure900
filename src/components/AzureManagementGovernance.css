@@ -1,0 +1,33 @@
+.accordion {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .category {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .category .title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .category .content {
+    display: none;
+    margin-top: 10px;
+  }
+  
+  .category.active .content {
+    display: block;
+  }
+  
+  .category:not(.active):hover {
+    background-color: #f0f0f0;
+  }
+  

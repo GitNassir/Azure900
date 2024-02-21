@@ -1,0 +1,45 @@
+.azureRegions {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f4f8;
+    color: #333;
+  }
+  
+  .azureRegions h1 {
+    text-align: center;
+    color: #0078d4;
+  }
+  
+  .sectionRegions {
+    margin-bottom: 30px;
+    background-color: #fff;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid #EAE2B7;
+    border-left: 1px solid #EAE2B7;
+    border-right: 1px solid #EAE2B7;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .sectionRegions:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  .sectionRegions h2 {
+    color: #023047;
+    margin-bottom: 15px;
+  }
+  
+  .sectionRegions p {
+    line-height: 1.6;
+  }
+  
