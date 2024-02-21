@@ -65,7 +65,7 @@ const PopupQuiz: React.FC<PopupQuizProps> = ({ topic }) => {
               </>
             ) : (
               <div>
-                <h2>Resultat</h2>
+                <h2>Resultat 3</h2>
                 <p>Du fik {correctAnswersCount} ud af {questions.length} korrekt!</p>
                 <button onClick={resetQuiz}>Prøv igen</button>
               </div>
