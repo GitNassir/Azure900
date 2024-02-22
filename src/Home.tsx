@@ -90,7 +90,7 @@ interface CardData {
                     <img src="https://prayagtandon.github.io/Omnifood-Project/Hero-section/img/customers/customer-6.jpg" alt="Customer photo" />
                 </div>
                 <p className="delivered-text">
-                    <span>1500+</span> azure certifikater opnået!
+                    <span>349+</span> azure certifikater opnået!
                 </p>
                 </div>
             </div>
