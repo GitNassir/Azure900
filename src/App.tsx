@@ -12,7 +12,7 @@ function App() {
       <div>
         <NavBar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/high-availability" element={<HighAvailabilityComponent />} />
           <Route path="/compute-networking" element={<ComputeNetworking />} />
           <Route path="/azure-management" element={<AzureManagementGovernance />} />
