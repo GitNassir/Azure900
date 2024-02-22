@@ -7,7 +7,6 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      // Tilføj dine aliaser her, hvis du har nogen
     },
   },
   build: {
@@ -15,9 +14,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        // Du kan tilføje flere entry points her hvis nødvendigt
       },
     },
-    // base: '/min-undermappe/', // Kun nødvendig hvis du deployer til en undermappe
   },
 });
